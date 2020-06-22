@@ -1,4 +1,4 @@
 github "Alamofire/Alamofire" "4.9.1"
 github "Alamofire/AlamofireImage" "3.6.0"
 github "SwiftyJSON/SwiftyJSON" "5.0.0"
-github "amsibsam/QiscusCoreApi" "0.2.6"
+github "amsibsam/QiscusCoreApi" "ae0ed08556354d8e33bf522bdb3bb07a5ae43a4b"
