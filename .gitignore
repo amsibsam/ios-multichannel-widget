@@ -7,3 +7,5 @@ Example.xcodeproj/xcuserdata/*
 Examples/carthage/Carthage
 Examples/cocoapods/pods/*
 swift package manager/Carthage/*
+Examples/cocoapods/Example.xcworkspace/xcuserdata
+Examples/carthage/Example.xcodeproj/project.xcworkspace/xcuserdata/rahardyan.xcuserdatad/UserInterfaceState.xcuserstate

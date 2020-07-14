@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112CCBFC24BCC41100DB1D09 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112CCBF824BCC41000DB1D09 /* CocoaAsyncSocket.framework */; };
+		112CCBFD24BCC41100DB1D09 /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112CCBF924BCC41100DB1D09 /* CocoaMQTT.framework */; };
+		112CCBFE24BCC41100DB1D09 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112CCBFA24BCC41100DB1D09 /* Starscream.framework */; };
+		112CCBFF24BCC41100DB1D09 /* QiscusRealtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112CCBFB24BCC41100DB1D09 /* QiscusRealtime.framework */; };
 		11449C7B249DE66F00E32D9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449C7A249DE66F00E32D9F /* AppDelegate.swift */; };
 		11449C7D249DE66F00E32D9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449C7C249DE66F00E32D9F /* SceneDelegate.swift */; };
 		11449C7F249DE66F00E32D9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11449C7E249DE66F00E32D9F /* ViewController.swift */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112CCBF824BCC41000DB1D09 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		112CCBF924BCC41100DB1D09 /* CocoaMQTT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaMQTT.framework; path = Carthage/Build/iOS/CocoaMQTT.framework; sourceTree = "<group>"; };
+		112CCBFA24BCC41100DB1D09 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		112CCBFB24BCC41100DB1D09 /* QiscusRealtime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QiscusRealtime.framework; path = Carthage/Build/iOS/QiscusRealtime.framework; sourceTree = "<group>"; };
 		11449C77249DE66F00E32D9F /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11449C7A249DE66F00E32D9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11449C7C249DE66F00E32D9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112CCBFC24BCC41100DB1D09 /* CocoaAsyncSocket.framework in Frameworks */,
+				112CCBFD24BCC41100DB1D09 /* CocoaMQTT.framework in Frameworks */,
+				112CCBFE24BCC41100DB1D09 /* Starscream.framework in Frameworks */,
+				112CCBFF24BCC41100DB1D09 /* QiscusRealtime.framework in Frameworks */,
 				11449CAB249DFD6800E32D9F /* Alamofire.framework in Frameworks */,
 				11449CAC249DFFC700E32D9F /* AlamofireImage.framework in Frameworks */,
 				11449CAD249DFFC700E32D9F /* MultichannelWidget.framework in Frameworks */,
@@ -121,6 +133,10 @@
 		11449C9C249DEA6400E32D9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				112CCBF824BCC41000DB1D09 /* CocoaAsyncSocket.framework */,
+				112CCBF924BCC41100DB1D09 /* CocoaMQTT.framework */,
+				112CCBFB24BCC41100DB1D09 /* QiscusRealtime.framework */,
+				112CCBFA24BCC41100DB1D09 /* Starscream.framework */,
 				11449C9D249DEA6400E32D9F /* Alamofire.framework */,
 				11449CA0249DEA6400E32D9F /* AlamofireImage.framework */,
 				11449CA1249DEA6400E32D9F /* MultichannelWidget.framework */,
@@ -241,6 +257,10 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/QiscusCoreAPI.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/MultichannelWidget.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/QiscusRealtime.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaMQTT.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -250,6 +270,10 @@
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QiscusCoreAPI.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MultichannelWidget.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QiscusRealtime.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaAsyncSocket.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaMQTT.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Starscream.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
